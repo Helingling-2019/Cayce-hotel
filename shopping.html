@@ -1,0 +1,842 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>会员商城</title>
+<link href="style/cy.css" rel="stylesheet" type="text/css">
+<link href="style/style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/index_sc.js"></script>
+</head>
+
+<body>
+<div class="top">
+  <div class="logo fl"><a href="#"><img src="images/logo.png" width="141" height="103" alt=""/></a></div>
+  <div class="top_r fr">
+    <div class="top_r1">
+      <div class="top_r1_1">
+        <h1>24小时预订热线</h1>
+        <p>400-0202-001</p>
+      </div>
+    </div>
+    <div class="top_r2">
+      <div class="nav fl">
+        <ul>
+         <li><a href="index.html" class="currentA">首页</a></li>
+            <li><a href="hotel-reservation.html">酒店预订</a></li>
+            <li><a href="special-offers.html">优惠信息</a></li>
+            <li><a href="shopping.html">会员商城</a></li>
+            <li><a href="hotel-training.html">酒店培训</a></li>
+            <li><a href="community-forum.html">社区论坛</a></li>
+            <li><a href="about.html">关于我们</a></li>
+           </ul>
+         </div>
+         <div class="top_r2_1">
+           <div class="top_r2_1a fl"><a href="#" class="top_r2_1a1">我的订单</a>
+           	<ul class="wddd-a">
+               	<li><a href="hotel-order.html">酒店订单</a></li>
+                   <li><a href="shopping-oder.html">商城订单</a></li>
+               </ul>
+           </div>
+           <div class="top_r2_1b fl"> <a href="register.html">登陆</a>|<a href="enroll.html">注册</a> </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--搜索及导航-->
+<div class="box">
+  <div class="hysc_1">
+    <h1>会员商城</h1>
+    <div class="hysc_1a">
+      <input type="text" placeholder="输入关键词" class="btn-1">
+      <input type="button" value="搜索" class="btn-2">
+    </div>
+    <div class="sc_nav_box">
+      <div class="sc_nav">
+        <div class="sc_nav1">全部商品</div>
+        <ul class="sc_nav2">
+          <li class="jt-a1">
+            <dl class="jt-a1a btbj-j1">
+              <dt><a href="#">休闲零食</a></dt>
+              <dd><a href="#">烤鸭</a><a href="#">核桃</a><a href="#">牛肉干</a><a href="#">辣条</a></dd>
+            </dl>
+          </li>
+          <li class="jt-a1">
+            <dl class="jt-a1a btbj-j2">
+              <dt><a href="#">生鲜果蔬</a></dt>
+              <dd><a href="#">樱桃</a><a href="#">杨梅</a><a href="#">荔枝</a><a href="#">海参</a></dd>
+            </dl>
+          </li>
+          <li class="jt-a1">
+            <dl class="jt-a1a btbj-j3">
+              <dt><a href="#">美酒佳酿</a></dt>
+              <dd><a href="#">茅台</a><a href="#">五粮液</a><a href="#">绍兴黄酒</a></dd>
+            </dl>
+          </li>
+          <li class="jt-a1">
+            <dl class="jt-a1a btbj-j4">
+              <dt><a href="#">粮油调味</a></dt>
+              <dd><a href="#">大米</a><a href="#">方便面</a><a href="#">调味品</a></dd>
+            </dl>
+          </li>
+          <li class="jt-a1">
+            <dl class="jt-a1a btbj-j5">
+              <dt><a href="#">茶</a></dt>
+              <dd><a href="#">普洱茶</a><a href="#">红茶</a><a href="#">花草茶</a></dd>
+            </dl>
+          </li>
+          <li class="jt-a1">
+            <dl class="jt-a1a btbj-j6">
+              <dt><a href="#">咖啡冲泡</a></dt>
+              <dd><a href="#">咖啡</a><a href="#">麦片</a><a href="#">酸奶</a></dd>
+            </dl>
+          </li>
+          <li class="jt-a1">
+            <dl class="jt-a1a btbj-j7">
+              <dt><a href="#">滋补养生</a></dt>
+              <dd><a href="#">蜂蜜</a><a href="#">燕窝</a><a href="#">枸杞</a><a href="#">红枣</a></dd>
+            </dl>
+          </li>
+          <li class="jt-a1">
+            <dl class="jt-a1a btbj-j8">
+              <dt><a href="#">家居饰品</a></dt>
+              <dd><a href="#">木雕</a><a href="#">石雕</a><a href="#">花瓶</a><a href="#">瓷器</a></dd>
+            </dl>
+          </li>
+          <li class="jt-a1">
+            <dl class="jt-a1a btbj-j9">
+              <dt><a href="#">特色手工艺</a></dt>
+              <dd><a href="#">泥人</a><a href="#">刺绣</a><a href="#">漆器</a><a href="#">葫芦</a></dd>
+            </dl>
+          </li>
+          <li class="jt-a1">
+            <dl class="jt-a1a btbj-j10">
+              <dt><a href="#">地方特产</a></dt>
+              <dd><a href="#">烤鸭</a><a href="#">核桃</a><a href="#">牛肉干</a></dd>
+            </dl>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!--banner及导航-->
+<div id="full-screen-slider">
+  <ul id="slides">
+    <li style="background:url('images/sc_banner1.jpg') no-repeat center top"><a href="#"></a></li>
+    <li style="background:url('images/sc_banner2.jpg') no-repeat center top"><a href="#"></a></li>
+    <li style="background:url('images/sc_banner3.jpg') no-repeat center top"><a href="#"></a></li>
+    <li style="background:url('images/sc_banner2.jpg') no-repeat center top"><a href="#"></a></li>
+  </ul>
+</div>
+<!--内容开始-->
+<div class="box"> 
+  <!--内容1-->
+  <div class="sc_main1">
+    <div class="main1-a"><a href="#"><img src="images/sc_img1.jpg" width="474" height="290" alt=""/></a><a href="#"><img src="images/sc_img2.jpg" width="474" height="290" alt=""/></a></div>
+    <div class="m_map">
+      <div class="map-pic"><img src="images/diru.png" /></div>
+      <div class="mp mp1"> <a href="http://www.baidu.com">
+        <div class="feng">
+          <div class="tree">
+            <div class="sang"> </div>
+            <div class="boou"> <img src="images/boou.png" width="86" height="62" alt="" /></div>
+            <div class="du_size">
+              <p> 内容描述：凯莱斯酒店高端大气上档次凯莱斯酒店高端大气上档次凯莱斯酒店高端大气上档次凯莱斯酒店高端大气上档次 </p>
+            </div>
+          </div>
+        </div>
+        </a>
+        <div class="mito find_mi1"> 新疆</div>
+      </div>
+      <div class="mp mp2"> <a href="#">
+        <div class="feng">
+          <div class="tree">
+            <div class="sang"> </div>
+            <div class="boou"> <img src="images/food.jpg" width="86" height="62" alt="" /></div>
+            <div class="du_size">
+              <p> 内容描述：高端大气上档次，低调奢华有内涵 </p>
+            </div>
+          </div>
+        </div>
+        </a>
+        <div class="mito"> 西藏</div>
+      </div>
+      <div class="mp mp3"> <a href="#">
+        <div class="feng">
+          <div class="tree">
+            <div class="sang"> </div>
+            <div class="boou"> <img src="images/nanchang.jpg" width="86" height="62" alt="" /></div>
+            <div class="du_size">
+              <p> 美食评价：美味可口馋人很想吃很想吃很想吃可口扣扣扣 </p>
+            </div>
+          </div>
+        </div>
+        </a>
+        <div class="mito"> 青海</div>
+      </div>
+      <div class="mp mp4"> <a href="#">
+        <div class="feng">
+          <div class="tree">
+            <div class="sang"> </div>
+            <div class="boou"> <img src="images/food1.jpg" width="86" height="62" alt="" /></div>
+            <div class="du_size">
+              <p> 美食介绍：来自重庆的这道美食，100%成都口味，聘请成都厨师 </p>
+              <p> 预订电话：029-68829598</p>
+            </div>
+          </div>
+        </div>
+        </a>
+        <div class="mito"> 云南</div>
+      </div>
+      <div class="mp mp5"> <a href="#">
+        <div class="feng">
+          <div class="tree">
+            <div class="sang"> </div>
+            <div class="boou"> <img src="images/good.jpg" width="86" height="62" alt="" /></div>
+            <div class="du_size">
+              <p> 详细介绍：贵阳麻辣烫，正宗口味，包你吃的开心包你吃得开心 </p>
+              <p> 预订电话：029-68829598</p>
+            </div>
+          </div>
+        </div>
+        </a>
+        <div class="mito"> 四川</div>
+      </div>
+      <div class="mp mp6"> <a href="#">
+        <div class="feng">
+          <div class="tree">
+            <div class="sang"> </div>
+            <div class="boou"> <img src="images/dilicious.jpg" width="86" height="62" alt="" /></div>
+            <div class="du_size">
+              <p> 食物取材：来自南宁的美味食品，完全取自纯天然的竹笋、香菇、山药而制成208 </p>
+              <p> 预订电话：029-68829598</p>
+            </div>
+          </div>
+        </div>
+        </a>
+        <div class="mito"> 甘肃</div>
+      </div>
+      <div class="mp mp7"> <a href="#">
+        <div class="feng">
+          <div class="tree">
+            <div class="sang"> </div>
+            <div class="boou"> <img src="images/dilicious.jpg" width="86" height="62" alt="" /></div>
+            <div class="du_size">
+              <p> 详细地址：昆明未央区未央宫街道未央路2号老三届首座大厦11208 </p>
+            </div>
+          </div>
+        </div>
+        </a>
+        <div class="mito"> 宁夏</div>
+      </div>
+      <div class="mp mp8"> <a href="#">
+        <div class="feng">
+          <div class="tree">
+            <div class="sang"> </div>
+            <div class="boou"> <img src="images/food.jpg" width="86" height="62" alt="" /></div>
+            <div class="du_size">
+              <p> 内容描述：凯莱斯酒店高端大气上档次8 </p>
+              <p> 预订电话：029-68829598</p>
+            </div>
+          </div>
+        </div>
+        </a>
+        <div class="mito find_mi2"> 内蒙古</div>
+      </div>
+      <div class="mp mp9"> <a href="#">
+        <div class="feng">
+          <div class="tree">
+            <div class="sang"> </div>
+            <div class="boou"> <img src="images/good.jpg" width="86" height="62" alt="" /></div>
+            <div class="du_size">
+              <p> 内容描述：高端就是大气就是上档次 </p>
+            </div>
+          </div>
+        </div>
+        </a>
+        <div class="mito"> 陕西</div>
+      </div>
+      <div class="mp mp10"> <a href="#">
+        <div class="feng">
+          <div class="tree">
+            <div class="sang"> </div>
+            <div class="boou"> <img src="images/food1.jpg" width="86" height="62" alt="" /></div>
+            <div class="du_size">
+              <p> 详细描述：美味可口的美食让你垂涎三尺 </p>
+            </div>
+          </div>
+        </div>
+        </a>
+        <div class="mito"> 重庆</div>
+      </div>
+      <div class="mp mp11"> <a href="#">
+        <div class="feng">
+          <div class="tree">
+            <div class="sang"> </div>
+            <div class="boou"> <img src="images/boou.png" width="86" height="62" alt="" /></div>
+            <div class="du_size">
+              <p> 详细描述：武汉未央区未央宫街道未央路2号老三届首座大厦11208 </p>
+            </div>
+          </div>
+        </div>
+        </a>
+        <div class="mito"> 贵州</div>
+      </div>
+      <div class="mp mp12"> <a href="#">
+        <div class="feng">
+          <div class="tree">
+            <div class="sang"> </div>
+            <div class="boou"> <img src="images/nanchang.jpg" width="86" height="62" alt="" /></div>
+            <div class="du_size">
+              <p> 详细描述：xxxxxxxxxxxxxxxxxxxxxxxxxxxxx </p>
+            </div>
+          </div>
+        </div>
+        </a>
+        <div class="mito"> 广西</div>
+      </div>
+      <div class="mp mp13"> <a href="#">
+        <div class="feng">
+          <div class="tree">
+            <div class="sang"> </div>
+            <div class="boou"> <img src="images/dilicious.jpg" width="86" height="62" alt="" /></div>
+            <div class="du_size">
+              <p> 海大夜市美食街 </p>
+            </div>
+          </div>
+        </div>
+        </a>
+        <div class="mito"> 海南</div>
+      </div>
+      <div class="mp mp14"> <a href="#">
+        <div class="feng">
+          <div class="tree">
+            <div class="sang"> </div>
+            <div class="boou"> <img src="images/boou.png" width="86" height="62" alt="" /></div>
+            <div class="du_size">
+              <p> 凯莱斯酒店五星级酒店 </p>
+            </div>
+          </div>
+        </div>
+        </a>
+        <div class="mito"> 广东</div>
+      </div>
+      <div class="mp mp15"> <a href="#">
+        <div class="feng">
+          <div class="tree">
+            <div class="sang"> </div>
+            <div class="boou"> <img src="images/food.jpg" width="86" height="62" alt="" /></div>
+            <div class="du_size">
+              <p> 美酒佳肴迎挚友；名楼雅座待高朋。 </p>
+            </div>
+          </div>
+        </div>
+        </a>
+        <div class="mito"> 湖南</div>
+      </div>
+      <div class="mp mp16"> <a href="#">
+        <div class="feng">
+          <div class="tree">
+            <div class="sang"> </div>
+            <div class="boou"> <img src="images/nanchang.jpg" width="86" height="62" alt="" /></div>
+            <div class="du_size">
+              <p> 美食评价：美味招徕云外客；清香引出月中仙。 </p>
+            </div>
+          </div>
+        </div>
+        </a>
+        <div class="mito"> 湖北</div>
+      </div>
+      <div class="mp mp17"> <a href="#">
+        <div class="feng">
+          <div class="tree">
+            <div class="sang"> </div>
+            <div class="boou"> <img src="images/good.jpg" width="86" height="62" alt="" /></div>
+            <div class="du_size">
+              <p> 美食吸引力：沽酒客来风亦醉；欢宴人去路还香。 </p>
+            </div>
+          </div>
+        </div>
+        </a>
+        <div class="mito"> 河南</div>
+      </div>
+      <div class="mp mp18"> <a href="#">
+        <div class="feng">
+          <div class="tree">
+            <div class="sang"> </div>
+            <div class="boou"> <img src="images/boou.png" width="86" height="62" alt="" /></div>
+            <div class="du_size">
+              <p> 优质评价：惠风畅意香盈座；满碗佳肴满店香。 </p>
+              <p> 预约电话：029-68829598</p>
+            </div>
+          </div>
+        </div>
+        </a>
+        <div class="mito"> 山西</div>
+      </div>
+      <div class="mp mp19"> <a href="#">
+        <div class="feng">
+          <div class="tree">
+            <div class="sang"> </div>
+            <div class="boou"> <img src="images/food1.jpg" width="86" height="62" alt="" /></div>
+            <div class="du_size">
+              <p> 凯莱斯酒店评价：环境优美，舒适，服务周到， </p>
+              <p> 订购电话：029-68829598</p>
+            </div>
+          </div>
+        </div>
+        </a>
+        <div class="mito"> 北京</div>
+      </div>
+      <div class="mp mp20"> <a href="#">
+        <div class="feng">
+          <div class="tree">
+            <div class="sang"> </div>
+            <div class="boou"> <img src="images/good.jpg" width="86" height="62" alt="" /></div>
+            <div class="du_size">
+              <p> 韵味：优雅，耐人寻味 </p>
+            </div>
+          </div>
+        </div>
+        </a>
+        <div class="mito"> 河北</div>
+      </div>
+      <div class="mp mp21"> <a href="#">
+        <div class="feng">
+          <div class="tree">
+            <div class="sang"> </div>
+            <div class="boou"> <img src="images/boou.png" width="86" height="62" alt="" /></div>
+            <div class="du_size">
+              <p> 地址：江西省南昌洪都大道江西省南昌是洪都大道 </p>
+              <p> 预约电话：029-68829598</p>
+            </div>
+          </div>
+        </div>
+        </a>
+        <div class="mito"> 天津</div>
+      </div>
+      <div class="mp mp22"> <a href="#">
+        <div class="feng">
+          <div class="tree">
+            <div class="sang"> </div>
+            <div class="boou"> <img src="images/dilicious.jpg" width="86" height="62" alt="" /></div>
+            <div class="du_size">
+              <p> 地址：青岛未央区未央宫街道未央路2号老三届首座大厦11208 </p>
+              <p> 电话：029-68829598</p>
+            </div>
+          </div>
+        </div>
+        </a>
+        <div class="mito"> 辽宁</div>
+      </div>
+      <div class="mp mp23"> <a href="#">
+        <div class="feng">
+          <div class="tree">
+            <div class="sang"> </div>
+            <div class="boou"> <img src="images/good.jpg" width="86" height="62" alt="" /></div>
+            <div class="du_size">
+              <p> 地址：北京未央区未央宫街道未央路2号老三届首座大厦11208 </p>
+              <p> 电话：029-68829598</p>
+            </div>
+          </div>
+        </div>
+        </a>
+        <div class="mito"> 吉林</div>
+      </div>
+      <div class="mp mp24"> <a href="#">
+        <div class="feng">
+          <div class="tree">
+            <div class="sang"> </div>
+            <div class="boou"> <img src="images/boou.png" width="86" height="62" alt="" /></div>
+            <div class="du_size">
+              <p> 凯莱斯酒店评价：环境优美，舒适，服务周到， </p>
+              <p> 订购电话：029-68829598</p>
+            </div>
+          </div>
+        </div>
+        </a>
+        <div class="mito find_mi2"> 黑龙江</div>
+      </div>
+      <div class="mp mp25"> <a href="#">
+        <div class="feng">
+          <div class="tree">
+            <div class="sang"> </div>
+            <div class="boou"> <img src="images/good.jpg" width="86" height="62" alt="" /></div>
+            <div class="du_size">
+              <p> 凯莱斯酒店评价：环境优美，舒适，服务周到， </p>
+              <p> 订购电话：029-68829598</p>
+            </div>
+          </div>
+        </div>
+        </a>
+        <div class="mito"> 山东</div>
+      </div>
+      <div class="mp mp26"> <a href="#">
+        <div class="feng">
+          <div class="tree">
+            <div class="sang"> </div>
+            <div class="boou"> <img src="images/boou.png" width="86" height="62" alt="" /></div>
+            <div class="du_size">
+              <p> 凯莱斯酒店评价：环境优美，舒适，服务周到， </p>
+              <p> 订购电话：029-68829598</p>
+            </div>
+          </div>
+        </div>
+        </a>
+        <div class="mito"> 江苏</div>
+      </div>
+      <div class="mp mp27"> <a href="#">
+        <div class="feng">
+          <div class="tree">
+            <div class="sang"> </div>
+            <div class="boou"> <img src="images/good.jpg" width="86" height="62" alt="" /></div>
+            <div class="du_size">
+              <p> 凯莱斯酒店评价：环境优美，舒适，服务周到， </p>
+              <p> 订购电话：029-68829598</p>
+            </div>
+          </div>
+        </div>
+        </a>
+        <div class="mito find_mi2"> 上海</div>
+      </div>
+      <div class="mp mp28"> <a href="#">
+        <div class="feng">
+          <div class="tree">
+            <div class="sang"> </div>
+            <div class="boou"> <img src="images/boou.png" width="86" height="62" alt="" /></div>
+            <div class="du_size">
+              <p> 凯莱斯酒店评价：环境优美，舒适，服务周到， </p>
+              <p> 订购电话：029-68829598</p>
+            </div>
+          </div>
+        </div>
+        </a>
+        <div class="mito"> 安徽</div>
+      </div>
+      <div class="mp mp29"> <a href="#">
+        <div class="feng">
+          <div class="tree">
+            <div class="sang"> </div>
+            <div class="boou"> <img src="images/good.jpg" width="86" height="62" alt="" /></div>
+            <div class="du_size">
+              <p> 凯莱斯酒店评价：环境优美，舒适，服务周到， </p>
+              <p> 订购电话：029-68829598</p>
+            </div>
+          </div>
+        </div>
+        </a>
+        <div class="mito"> 浙江</div>
+      </div>
+      <div class="mp mp30"> <a href="#">
+        <div class="feng">
+          <div class="tree">
+            <div class="sang"> </div>
+            <div class="boou"> <img src="images/boou.png" width="86" height="62" alt="" /></div>
+            <div class="du_size">
+              <p> 凯莱斯酒店评价：环境优美，舒适，服务周到， </p>
+              <p> 订购电话：029-68829598</p>
+            </div>
+          </div>
+        </div>
+        </a>
+        <div class="mito"> 江西</div>
+      </div>
+      <div class="mp mp31"> <a href="#">
+        <div class="feng">
+          <div class="tree">
+            <div class="sang"> </div>
+            <div class="boou"> <img src="images/good.jpg" width="86" height="62" alt="" /></div>
+            <div class="du_size">
+              <p> 凯莱斯酒店评价：环境优美，舒适，服务周到， </p>
+              <p> 订购电话：029-68829598</p>
+            </div>
+          </div>
+        </div>
+        </a>
+        <div class="mito"> 福建</div>
+      </div>
+      <div class="mp mp32"> <a href="#">
+        <div class="feng">
+          <div class="tree">
+            <div class="sang"> </div>
+            <div class="boou"> <img src="images/boou.png" width="86" height="62" alt="" /></div>
+            <div class="du_size">
+              <p> 凯莱斯酒店评价：环境优美，舒适，服务周到， </p>
+              <p> 订购电话：029-68829598</p>
+            </div>
+          </div>
+        </div>
+        </a>
+        <div class="mito"> 台湾</div>
+      </div>
+      <div class="mp mp33"> <a href="#">
+        <div class="feng">
+          <div class="tree">
+            <div class="sang"> </div>
+            <div class="boou"> <img src="images/boou.png" width="86" height="62" alt="" /></div>
+            <div class="du_size">
+              <p> 凯莱斯酒店评价：环境优美，舒适，服务周到， </p>
+              <p> 订购电话：029-68829598</p>
+            </div>
+          </div>
+        </div>
+        </a>
+        <div class="mito find_mi2"> 钓鱼岛</div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">      
+            $(".mp").mouseover(function () {
+                $(this).find(".feng").show();
+            }).mouseout(function () {
+                $(this).find(".feng").hide();
+
+            });
+    </script> 
+  <!--内容2-->
+  <div class="sc_main2">
+    <div class="main2-a">
+      <h1>热门推荐</h1>
+      <a href="#">more+</a> </div>
+    <div class="blk_18">
+      <div class="pcont" id="ISL_Cont_1">
+        <div class="ScrCont">
+          <div id="List1_1"> 
+            <!-- piclist begin -->
+            <div class="pl"><a href="#"><img src="images/rm_img1.jpg" /></a>
+              <h1 class="infor"><a href="#">32g电脑两用u盘两用u32g</a></h1>
+              <div class="infor1"> <span class="infor1_l">￥280</span></div>
+            </div>
+            <div class="pl"><a href="#"><img src="images/rm_img1.jpg" /></a>
+              <h1 class="infor"><a href="#">32g电脑两用u盘两用u32g</a></h1>
+              <div class="infor1"> <span class="infor1_l">￥280</span></div>
+            </div>
+            <div class="pl"><a href="#"><img src="images/rm_img1.jpg" /></a>
+              <h1 class="infor"><a href="#">32g电脑两用u盘两用u32g</a></h1>
+              <div class="infor1"> <span class="infor1_l">￥280</span></div>
+            </div>
+            <div class="pl"><a href="#"><img src="images/rm_img1.jpg" /></a>
+              <h1 class="infor"><a href="#">32g电脑两用u盘两用u32g</a></h1>
+              <div class="infor1"> <span class="infor1_l">￥280</span></div>
+            </div>
+            <div class="pl"><a href="#"><img src="images/rm_img1.jpg" /></a>
+              <h1 class="infor"><a href="#">32g电脑两用u盘两用u32g</a></h1>
+              <div class="infor1"> <span class="infor1_l">￥280</span></div>
+            </div>
+            <div class="pl"><a href="#"><img src="images/rm_img1.jpg" /></a>
+              <h1 class="infor"><a href="#">32g电脑两用u盘两用u32g</a></h1>
+              <div class="infor1"> <span class="infor1_l">￥280</span></div>
+            </div>
+            <div class="pl"><a href="#"><img src="images/rm_img1.jpg" /></a>
+              <h1 class="infor"><a href="#">32g电脑两用u盘两用u32g</a></h1>
+              <div class="infor1"> <span class="infor1_l">￥280</span></div>
+            </div>
+            <div class="pl"><a href="#"><img src="images/rm_img1.jpg" /></a>
+              <h1 class="infor"><a href="#">32g电脑两用u盘两用u32g</a></h1>
+              <div class="infor1"> <span class="infor1_l">￥280</span></div>
+            </div>
+          </div>
+          <div id="List2_1"></div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+        <!--
+        picrun_ini()
+        //-->
+        </script> 
+  </div>
+  <!--内容3-->
+  <div class="sc_main3">
+    <div class="main3-a">
+      <h1>人气推荐</h1>
+      <a href="#">more+</a> </div>
+    <div class="main3-b">
+      <ul>
+        <li class="main3-b1"><a href="#"><img src="images/sc_x1.jpg" width="170" height="135" alt=""/></a>
+          <h1><a href="#">32g电脑两用u盘两用u32g</a></h1>
+          <p>￥280</p>
+        </li>
+        <!--<li class="main3-b2">
+          <div class="main3-b2a">
+            <h1><a href="#">32g电脑两用u盘两用u32g</a></h1>
+            <p>￥280</p>
+          </div>
+          <div class="main3-b2b"><a href="#"><img src="images/sc_d1.jpg" width="190" height="151" alt=""/></a></div>
+        </li>-->
+        <li class="main3-b1"><a href="#"><img src="images/sc_x1.jpg" width="170" height="135" alt=""/></a>
+          <h1><a href="#">32g电脑两用u盘两用u32g</a></h1>
+          <p>￥280</p>
+        </li>
+        <li class="main3-b1"><a href="#"><img src="images/sc_x1.jpg" width="170" height="135" alt=""/></a>
+          <h1><a href="#">32g电脑两用u盘两用u32g</a></h1>
+          <p>￥280</p>
+        </li>
+        <li class="main3-b1"><a href="#"><img src="images/sc_x1.jpg" width="170" height="135" alt=""/></a>
+          <h1><a href="#">32g电脑两用u盘两用u32g</a></h1>
+          <p>￥280</p>
+        </li>
+        
+        <li class="main3-b1"><a href="#"><img src="images/sc_x1.jpg" width="170" height="135" alt=""/></a>
+          <h1><a href="#">32g电脑两用u盘两用u32g</a></h1>
+          <p>￥280</p>
+        </li>
+        <li class="main3-b1"><a href="#"><img src="images/sc_x1.jpg" width="170" height="135" alt=""/></a>
+          <h1><a href="#">32g电脑两用u盘两用u32g</a></h1>
+          <p>￥280</p>
+        </li>
+   <!--   </ul>
+    </div>
+    <div class="main3-b main3-c">
+      <ul>-->
+        <li class="main3-b1"><a href="#"><img src="images/sc_x1.jpg" width="170" height="135" alt=""/></a>
+          <h1><a href="#">32g电脑两用u盘两用u32g</a></h1>
+          <p>￥280</p>
+        </li>
+        <li class="main3-b1"><a href="#"><img src="images/sc_x1.jpg" width="170" height="135" alt=""/></a>
+          <h1><a href="#">32g电脑两用u盘两用u32g</a></h1>
+          <p>￥280</p>
+        </li>
+        <li class="main3-b1"><a href="#"><img src="images/sc_x1.jpg" width="170" height="135" alt=""/></a>
+          <h1><a href="#">32g电脑两用u盘两用u32g</a></h1>
+          <p>￥280</p>
+        </li>
+        <!--<li class="main3-b2">
+          <div class="main3-b2a">
+            <h1><a href="#">32g电脑两用u盘两用u32g</a></h1>
+            <p>￥280</p>
+          </div>
+          <div class="main3-b2b"><a href="#"><img src="images/sc_d1.jpg" width="190" height="151" alt=""/></a></div>
+        </li>-->
+        <li class="main3-b1"><a href="#"><img src="images/sc_x1.jpg" width="170" height="135" alt=""/></a>
+          <h1><a href="#">32g电脑两用u盘两用u32g</a></h1>
+          <p>￥280</p>
+        </li>
+        <li class="main3-b1"><a href="#"><img src="images/sc_x1.jpg" width="170" height="135" alt=""/></a>
+          <h1><a href="#">32g电脑两用u盘两用u32g</a></h1>
+          <p>￥280</p>
+        </li>
+        <li class="main3-b1"><a href="#"><img src="images/sc_x1.jpg" width="170" height="135" alt=""/></a>
+          <h1><a href="#">32g电脑两用u盘两用u32g</a></h1>
+          <p>￥280</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!--内容4-->
+  <div class="sc_main4"> <a href="#"><img src="images/ggt_01.jpg" width="1200" height="90" alt=""/></a> </div>
+  <!--内容5-->
+  <div class="sc_main3">
+    <div class="main3-a">
+      <h1>优选精品</h1>
+      <a href="#">more+</a> </div>
+    
+    <div class="main3-b">
+      <ul>
+        <li class="main3-b1"><a href="#"><img src="images/sc_x1.jpg" width="170" height="135" alt=""/></a>
+          <h1><a href="#">32g电脑两用u盘两用u32g</a></h1>
+          <p>￥280</p>
+        </li>
+     
+        <li class="main3-b1"><a href="#"><img src="images/sc_x1.jpg" width="170" height="135" alt=""/></a>
+          <h1><a href="#">32g电脑两用u盘两用u32g</a></h1>
+          <p>￥280</p>
+        </li>
+        <li class="main3-b1"><a href="#"><img src="images/sc_x1.jpg" width="170" height="135" alt=""/></a>
+          <h1><a href="#">32g电脑两用u盘两用u32g</a></h1>
+          <p>￥280</p>
+        </li>
+        <li class="main3-b1"><a href="#"><img src="images/sc_x1.jpg" width="170" height="135" alt=""/></a>
+          <h1><a href="#">32g电脑两用u盘两用u32g</a></h1>
+          <p>￥280</p>
+        </li>
+        
+        <li class="main3-b1"><a href="#"><img src="images/sc_x1.jpg" width="170" height="135" alt=""/></a>
+          <h1><a href="#">32g电脑两用u盘两用u32g</a></h1>
+          <p>￥280</p>
+        </li>
+        <li class="main3-b1"><a href="#"><img src="images/sc_x1.jpg" width="170" height="135" alt=""/></a>
+          <h1><a href="#">32g电脑两用u盘两用u32g</a></h1>
+          <p>￥280</p>
+        </li>
+   <!--   </ul>
+    </div>
+    <div class="main3-b main3-c">
+      <ul>-->
+        <li class="main3-b1"><a href="#"><img src="images/sc_x1.jpg" width="170" height="135" alt=""/></a>
+          <h1><a href="#">32g电脑两用u盘两用u32g</a></h1>
+          <p>￥280</p>
+        </li>
+        <li class="main3-b1"><a href="#"><img src="images/sc_x1.jpg" width="170" height="135" alt=""/></a>
+          <h1><a href="#">32g电脑两用u盘两用u32g</a></h1>
+          <p>￥280</p>
+        </li>
+        <li class="main3-b1"><a href="#"><img src="images/sc_x1.jpg" width="170" height="135" alt=""/></a>
+          <h1><a href="#">32g电脑两用u盘两用u32g</a></h1>
+          <p>￥280</p>
+        </li>
+        <!--<li class="main3-b2">
+          <div class="main3-b2a">
+            <h1><a href="#">32g电脑两用u盘两用u32g</a></h1>
+            <p>￥280</p>
+          </div>
+          <div class="main3-b2b"><a href="#"><img src="images/sc_d1.jpg" width="190" height="151" alt=""/></a></div>
+        </li>-->
+        <li class="main3-b1"><a href="#"><img src="images/sc_x1.jpg" width="170" height="135" alt=""/></a>
+          <h1><a href="#">32g电脑两用u盘两用u32g</a></h1>
+          <p>￥280</p>
+        </li>
+        <li class="main3-b1"><a href="#"><img src="images/sc_x1.jpg" width="170" height="135" alt=""/></a>
+          <h1><a href="#">32g电脑两用u盘两用u32g</a></h1>
+          <p>￥280</p>
+        </li>
+        <li class="main3-b1"><a href="#"><img src="images/sc_x1.jpg" width="170" height="135" alt=""/></a>
+          <h1><a href="#">32g电脑两用u盘两用u32g</a></h1>
+          <p>￥280</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!--内容6-->
+  <div class="sc_main4"> <a href="#"><img src="images/ggt_02.jpg" width="1200" height="90" alt=""/></a> </div>
+</div>
+<!--foot-->
+<div class="foot">
+  <div class="foot_box">
+    <div class="foot_s">
+      <div class="foot_1">
+        <dl>
+          <dt>会员中心</dt>
+          <dd><a href="#">我的积分</a><i>|</i><a href="#">积分订单</a><i>|</i><a href="#">个人资料</a></dd>
+        </dl>
+        <dl>
+          <dt>合作加盟</dt>
+          <dd><a href="#">加盟申请</a><i>|</i><a href="#">加盟条件</a><i>|</i><a href="#">加盟费用</a></dd>
+        </dl>
+        <dl>
+          <dt>关于我们</dt>
+          <dd><a href="#">公司简介</a><i>|</i><a href="#">组织结构</a><i>|</i><a href="#">联系方式</a><i>|</i><a href="#">电子地图</a></dd>
+        </dl>
+      </div>
+      <div class="foot_2">
+        <div class="foot_2a">
+          <div class="renx">
+            <h1>24小时预订热线</h1>
+            <p>400-0202-001</p>
+          </div>
+        </div>
+        <div class="foot_2b"><img src="images/ewm.jpg" width="79" height="80" alt=""/>
+          <p>微信二维码</p>
+        </div>
+      </div>
+    </div>
+    <div class="foot_x">
+      <p>copyRight@2009 All Right Reserved | 凯莱斯酒店版权所有 ICP备案编号:赣100013106 | 技术支持：<a href="#">南昌网络</a> <a href="#">珠峰科技</a><img src="images/banq.jpg" width="50" height="12" alt=""/ class="banqu"></p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
